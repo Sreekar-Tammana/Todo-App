@@ -1,4 +1,4 @@
 # Todo-App
 
 ### Live App 👇
-yournotesst.netlify.app
+https://yournotesst.netlify.app/
