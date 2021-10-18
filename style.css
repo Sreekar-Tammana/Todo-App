@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: #242132;
+    color: white;
+}
+
+
+.headBlock{
+
+    width: 100vw;
+    height: 184px;
+    /* left: 0px;
+    background: linear-gradient(
+    114.22deg, #C9C9C9 -40.39%, rgba(172, 172, 172, 0) 107.76%);
+    backdrop-filter: blur(20px); */
+    border-radius: 20px;
+    margin-top: -60px;
+    background-color: #4159a5;
+    box-shadow: 0px 9px 13px rgb(110 142 195 / 24%);
+}
+
+.headBlock h1{
+    font-size: 32px;
+    padding-top: 88px;
+    /* padding-left: 25px; */
+    display: flex;
+    justify-content: center;
+}
+
+.textAndAddBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea{
+    height: 70px;
+    /* margin-left: 308px; */
+    margin-top: 32px;
+    color: white;
+    background-color: black;
+    width: 220px;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+#addNoteBtn{
+
+    width: 204px;
+    height: 36px;
+    /* margin-left: 72px; */
+    background-color: #aeffae;
+    border-radius: 5px;
+    border: none;
+}
+
+.lineBelowAddNote{
+
+    width: 100vw;
+    margin-top: 20px;
+}
+
+.yourNotes{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.displayNotes{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.printsNotes{
+
+    width: 325px;
+    background-color: #37324D;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+.printsNotes p{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.printsNotes button{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+    background: #ff8080;
+    color: white;
+    border: none;
+}
+
+.printsNotes button:hover{
+    cursor: pointer;
+}
+
+.printsNotes hr{
+    width: inherit;
+}
+
+.tasksAndDeleteBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.pendingTasks{
+    margin-bottom: 10px;
+}
+
+.deleteAll{
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+    background: #f35454;
+    color: white;
+    border: none;
+}
+
+.deleteAll:hover{
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+
+    .headBlock{
+        width: 360px;
+    }
+    .headBlock h1{
+        font-size: 32px;
+        padding-top: 72px;
+        padding-left: 25px;
+    }
+
+    textarea{
+        height: 70px;
+        /* margin-left: 63px; */
+        margin-top: 32px;
+        color: white;
+        background-color: black;
+        width: 220px;
+    }
+}
