@@ -64,6 +64,7 @@ function showNotes() {
         <hr/>
         <div/>`
     })
+    
 
     displayNotes.innerHTML = newTagLine;
 
