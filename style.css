@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
 }
 
 body{
@@ -12,15 +11,9 @@ body{
     color: white;
 }
 
-
 .headBlock{
-
     width: 100vw;
     height: 184px;
-    /* left: 0px;
-    background: linear-gradient(
-    114.22deg, #C9C9C9 -40.39%, rgba(172, 172, 172, 0) 107.76%);
-    backdrop-filter: blur(20px); */
     border-radius: 20px;
     margin-top: -60px;
     background-color: #4159a5;
@@ -30,7 +23,6 @@ body{
 .headBlock h1{
     font-size: 32px;
     padding-top: 88px;
-    /* padding-left: 25px; */
     display: flex;
     justify-content: center;
 }
@@ -43,7 +35,6 @@ body{
 
 textarea{
     height: 70px;
-    /* margin-left: 308px; */
     margin-top: 32px;
     color: white;
     background-color: black;
@@ -56,38 +47,32 @@ textarea{
 
     width: 204px;
     height: 36px;
-    /* margin-left: 72px; */
     background-color: #aeffae;
     border-radius: 5px;
     border: none;
 }
 
 .lineBelowAddNote{
-
     width: 100vw;
     margin-top: 20px;
 }
 
 .yourNotes{
-
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
 .displayNotes{
-
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 10px;
-    
 }
 
 
 .printsNotes{
-
     width: 325px;
     background-color: #37324D;
     margin-top: 4px;
@@ -145,11 +130,13 @@ textarea{
     cursor: pointer;
 }
 
+/* MEDIA QUERIES */
 @media (max-width:768px){
 
     .headBlock{
         width: 360px;
     }
+
     .headBlock h1{
         font-size: 32px;
         padding-top: 72px;
@@ -158,7 +145,6 @@ textarea{
 
     textarea{
         height: 70px;
-        /* margin-left: 63px; */
         margin-top: 32px;
         color: white;
         background-color: black;
