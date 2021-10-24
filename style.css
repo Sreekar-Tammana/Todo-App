@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 body{
@@ -44,12 +45,15 @@ textarea{
 }
 
 #addNoteBtn{
-
     width: 204px;
     height: 36px;
     background-color: #aeffae;
     border-radius: 5px;
     border: none;
+}
+
+#addNoteBtn:hover{
+    cursor: pointer;
 }
 
 .lineBelowAddNote{
